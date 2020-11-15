@@ -21,7 +21,7 @@ function endDrag(){
             console.log(id_list);
             //result를 구하는 함수
             returnResult(id_list);
-            
+            //여기에 가능하면 페이지 이동 넣어주면 되지 않을까 싶다          
         }
         overTarget=false;
     }
