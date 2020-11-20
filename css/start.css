@@ -1,17 +1,17 @@
-*{margin: 0; padding: 0;}
-
-body
-    {
-        position: absolute; left: 50%; top: 50%; 
-        transform: translate(-50%, -50%); 
-        text-align: center;
-        background: rgb(219, 176, 111);
-    }
-    
-.wrap
-    {
-        width: 100%;
-        height: 500px;
-        max-width: 100%;
-        margin:0 auto;
-    }
+body {
+    background-color: #FBE3BE;
+}
+.container{
+    max-width: 32%;
+    max-height: 32%;
+}
+.start_button{
+    top:48%;
+    left: 5%;
+    position: absolute;
+}
+.howplay_button{
+    top:63%;
+    left: 9%;
+    position: absolute;
+}
