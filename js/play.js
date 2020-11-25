@@ -21,7 +21,8 @@ function endDrag(){
             console.log(id_list);
             //result를 구하는 함수
             returnResult(id_list);
-            //여기에 가능하면 페이지 이동 넣어주면 되지 않을까 싶다          
+            //페이지 이동       
+            matchingPage();   
         }
         overTarget=false;
     }
@@ -146,4 +147,57 @@ function maxIndex(market_rank){
 function marketRandom(){
     var result_index=max_rank_index[Math.floor(Math.random()*max_rank_index.length)];
     result=market_list[result_index];
+}
+
+function matchingPage(){
+    switch(result){
+        //['카페베네','행복한맛김','잉꼬떡방아','틈새라면','뜨레봉닭강정','맵당','신사리즉석떡볶이',
+        //'아저씨닭강정','59떡갈비','고모네정육식당','시장분식','시장탕수육','킹콩부대찌개',
+        //'원조홍어','백암왕순대&왕냉면']
+        case '카페베네' : 
+            location.href="result_caffebene.html";
+            break;
+        case '행복한맛김' :
+            location.href="result_happykim.html"; 
+            break;
+        case '잉꼬떡방아' : 
+            location.href="result_ricecake.html";  
+            break;
+        case '틈새라면' : 
+            location.href="result_ramen.html";  
+            break;    
+        case '뜨레봉닭강정' : 
+            location.href="result_bongchicken.html";  
+            break; 
+        case '맵당' : 
+            location.href="result_sohot.html";  
+            break;
+        case '신사리즉석떡볶이' : 
+            location.href="result_shinsaritteokbokki.html";  
+            break;
+        case '아저씨닭강정' : 
+            location.href="result_menchicken.html";  
+            break;
+        case '59떡갈비' : 
+            location.href="result_59.html";  
+            break;
+        case '고모네정육식당' : 
+            location.href="result_auntmeet.html";  
+            break;
+        case '시장분식' : 
+            location.href="result_marketsnackbar.html";  
+            break;
+        case '시장탕수육' : 
+            location.href="result_marketpork.html";  
+            break;
+        case '킹콩부대찌개' : 
+            location.href="result_kingkong.html";  
+            break;
+        case '원조홍어' : 
+            location.href="result_originalfish.html";  
+            break;
+        case '백암왕순대&왕냉면' : 
+            location.href="result_backam.html";  
+            break;
+    }
 }
