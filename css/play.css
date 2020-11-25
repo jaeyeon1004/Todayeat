@@ -55,3 +55,8 @@ img{
     position: fixed;
     z-index: 9999;
 }
+
+#blank{
+    height: 200px;
+    width: 5px;
+}
