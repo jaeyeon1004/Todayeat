@@ -22,13 +22,13 @@ body {
     top : 4%;
     left:28%;
     position: absolute;
-    width: 430px;
-    height: 300px;
+    width: 48%;
+    height: 25%;
 }
 .start_button{
     font-family: 'Black Han Sans', sans-serif;
-    width: 430px;
-    height: 80px;
+    width: 48%;
+    height: 15%;
     font-size: 36px;
     padding: 15px 32px;
     background-color: peru;
@@ -45,8 +45,8 @@ body {
 }
 .howplay_button{
     font-family: 'Black Han Sans', sans-serif;
-    width: 430px;
-    height: 80px;
+    width: 48%;
+    height: 15%;
     font-size: 36px;
     padding: 15px 32px;
     background-color: peru;
