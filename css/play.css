@@ -60,19 +60,19 @@ img{
     height: 200px;
     width: 5px;
 }
-/*스크롤 넓이*/
+/*scrollbar 넓이*/
 ::-webkit-scrollbar {
     width: 20px;
 }
-/*스크롤 배경 색*/
+/*배경 색*/
 ::-webkit-scrollbar-track {
     background-color:#FBE3BE;
 }
-/* 스크롤 구간 배경 색상 */
+/* 구간 배경 색상 */
 ::-webkit-scrollbar-thumb {
     background-color:rgb(180, 110, 43);
 } 
-/* 스크롤 상하단 버튼 넓이&색깔 */
+/*상하단 버튼 넓이&색깔 */
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
 width:16px; height:16px; background-color:rgb(119, 75, 34);
 } 
