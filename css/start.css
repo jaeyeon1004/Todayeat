@@ -20,7 +20,7 @@ body {
 } */
 .logo{
     top : 4%;
-    left:27%;
+    left:28%;
     position: absolute;
     width: 430px;
     height: 300px;
@@ -34,7 +34,7 @@ body {
     background-color: peru;
     color: rgb(95, 63, 30);
     top:57%;
-    left: 27%;
+    left: 28%;
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
@@ -52,7 +52,7 @@ body {
     background-color: peru;
     color: rgb(95, 63, 30);
     top:73%;
-    left:27%;
+    left:28%;
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
