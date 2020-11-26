@@ -1,0 +1,62 @@
+.frame {
+    position: absolute;
+    left: 35%;
+    background-color: #FBE3BE;
+    width: 40%;
+
+}
+.container{
+    width: 80%;
+    height: 80%;
+    
+}
+
+img{
+    max-width: 40%;
+    max-height: auto;
+}
+
+.ingredient-section{
+    display: flex;
+}
+.ingredient-1{
+    flex: 1;
+}
+.ingredient-2{
+    flex: 1;
+}
+.ingredient-3{
+    flex: 1;
+}
+
+.shelf{
+    max-width: 125%;
+}
+
+.fixed-section{
+    overflow: hidden;
+}
+.table{
+    left: 35%;
+    bottom: 0%;
+    position: fixed;
+    z-index: 1;
+}
+.margin{
+    margin-bottom: 70%;
+}
+
+.fixed-section2{
+    overflow: hidden;
+}
+.bowl{
+    left: 35%;
+    bottom: 2%;
+    position: fixed;
+    z-index: 9999;
+}
+
+#blank{
+    height: 200px;
+    width: 5px;
+}
