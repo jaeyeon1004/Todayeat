@@ -1,5 +1,5 @@
 body {
-    background-color:white;
+    background-image: url(../image/settings/background.png);
 }
 .frame {
     position: absolute;
@@ -8,6 +8,7 @@ body {
     background-color: #FBE3BE;
     width: 80%; 
     height: 70%;
+    box-shadow: 0 6px 15px 0 rgb(65, 50, 32);
 }
 .container{
     width: 100%;

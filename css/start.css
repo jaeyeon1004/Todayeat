@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 body {
-    background-color:white;
+    background-image: url(../image/settings/background.png);
+    
 }
 .frame {
     position: absolute;
@@ -9,6 +10,7 @@ body {
     background-color: #FBE3BE;
     width: 70%; 
     height: 94%;
+    box-shadow: 0 6px 15px 0 rgb(65, 50, 32);
 }
 .container{
     width: 100%;
