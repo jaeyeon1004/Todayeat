@@ -19,22 +19,22 @@ body {
     max-height: auto;
 } */
 .logo{
-    top : 4%;
-    left:28%;
+    top : 2%;
+    left:25%;
     position: absolute;
     width: 48%;
-    height: 25%;
+    height: 33%;
 }
 .start_button{
     font-family: 'Black Han Sans', sans-serif;
     width: 48%;
-    height: 15%;
+    height: 14%;
     font-size: 36px;
     padding: 15px 32px;
     background-color: peru;
     color: rgb(95, 63, 30);
     top:57%;
-    left: 28%;
+    left: 27%;
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
@@ -46,13 +46,13 @@ body {
 .howplay_button{
     font-family: 'Black Han Sans', sans-serif;
     width: 48%;
-    height: 15%;
+    height: 14%;
     font-size: 36px;
     padding: 15px 32px;
     background-color: peru;
     color: rgb(95, 63, 30);
     top:73%;
-    left:28%;
+    left:27%;
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
