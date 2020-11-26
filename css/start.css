@@ -19,17 +19,17 @@ body {
     max-height: auto;
 } */
 .logo{
-    top : 2%;
-    left:25%;
+    top : 10%;
+    left:20%;
     position: absolute;
-    width: 48%;
-    height: 33%;
+    width: 60%;
+    height: 48%;
 }
 .start_button{
     font-family: 'Black Han Sans', sans-serif;
     width: 48%;
     height: 14%;
-    font-size: 36px;
+    font-size: 60px;
     padding: 15px 32px;
     background-color: peru;
     color: rgb(95, 63, 30);
@@ -47,7 +47,7 @@ body {
     font-family: 'Black Han Sans', sans-serif;
     width: 48%;
     height: 14%;
-    font-size: 36px;
+    font-size: 60px;
     padding: 15px 32px;
     background-color: peru;
     color: rgb(95, 63, 30);
