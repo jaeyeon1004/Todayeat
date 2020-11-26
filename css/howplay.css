@@ -53,3 +53,10 @@ body {
     height: 23%;
 }
 
+.back_btn{
+    position: absolute;
+    left: 82%;
+    top:7%;
+    width: 15%;
+    height: 17%;
+}
