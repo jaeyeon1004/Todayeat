@@ -36,7 +36,8 @@ body {
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
-    box-shadow: 0 8px 19px 0 
+    border: none;
+    box-shadow: 0 8px 19px 0  rgb(128, 88, 41);
 }
 .start_button:hover{
     opacity: 0.8;
@@ -54,7 +55,8 @@ body {
     position: absolute;
     opacity: 1;
     transition-duration: 0.2s;
-    box-shadow: 0 8px 19px 0
+    border: none;
+    box-shadow: 0 8px 19px 0 rgb(128, 88, 41);
 } 
 
 .howplay_button:hover{
