@@ -44,6 +44,29 @@
 
 #image img {
     object-fit: contain;
-    width: 360px;
+    width: 330px;
     height: auto;
+}
+
+#btn{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 50%;
+    margin-top: -0.5em;
+    margin-left: -50%;
+    text-align: center;
+}
+
+#btn_img{
+    object-fit: contain;
+    width: 40px;
+    height: auto;
+    margin: 70px;
+    margin-top: -70px;
+    margin-bottom: -70px;
+}
+
+#btn_img:hover{
+    opacity: 0.8;
 }
